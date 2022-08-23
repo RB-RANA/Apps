@@ -1,0 +1,342 @@
+/* Clock Css */
+
+.background {
+    text-align: center;
+    background: #49CFAE;
+    border-radius: 15px;
+    padding: 1.7em 1em;
+}.content_01 {
+    background: #202124;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 8em;
+}.content_01 span {
+    color: #69FF74;
+    font-size: 3em;
+}.content_01 h4 {
+    padding-top: 7px;
+}span.dote {
+    color: #fff;
+}span.dote.mp {
+    font-size: 1.5em;
+}
+
+/*  End content */
+
+.light_01 {
+    
+    width: 100%;
+    height: 10em;
+}.lightBackgroun {
+    background: #323335;
+}.light_01 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}.lightBackgroun {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.Css.mt-4.border.border-primary{
+
+    background: #323335;
+}.light_Button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5em 0.5em;
+}.light_Button button {
+    width: 6em;
+    border-radius: 18px;
+    height: 2em;
+    background: #323335;
+    border: none;
+    box-shadow: 15px 15px 15px #0000002e, -15px -15px 15px #0000002e;
+    position: relative;
+}.light_Button button {
+    color: #fff;
+    font-size: 1.5em;
+}button.lightOn:before {
+    width: 90%;
+    height: 75%;
+    content:var(--content,"OFF");
+    position: absolute;
+    background-color: var(--backgr,#413f3f96);
+    left: 8px;
+    top: var(--top,6px);
+    bottom: 0;
+    border-radius: 29px;
+    transition: 0.7s;
+  
+}button.lightOn {
+    position: relative;
+    /* box-shadow: -1px 0px 12px 0px #f4433670; */
+    transition: 0.7s;
+}button.lightOn:after {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background: #616161;
+    left: var(--left,100px);
+    top: 4px;
+    border-radius: 100%;
+    box-shadow: -1px -1px 13px 0px #000;
+    transition: 0.7s;
+}.Css.mt-4.news {
+    background: #323335;
+    border: 10px solid;
+    border-radius: 8px;
+}
+/*  End the Light Apps */
+
+/* Create Stopwatch using javascript */
+
+.CssTree {
+    height: 15.5em;
+    background: #448AFF;    
+    border-radius: 8px;
+}.contentTree {
+    border: 1px solid blue;
+    width: 18em;
+    height: 13em;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background: #ffffffd9;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}.countDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+    /* border: 1px solid; */
+    height: 6em;
+    box-shadow: -1px 6px 7px 0px #9e9e9ea6, -1px -4px 7px 0px #9e9e9ea8;
+    border-radius: 9px;
+    background: #ffffff;
+}.countButton {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2em;
+}.countButton button {padding: 3.2px 1.2em;border: none;border-radius: 7px;text-align: center;}
+
+button.Paus {
+    background: #205E94;
+    color: #fff;
+}button.Star {
+    background: #D23332;
+    color: #fff;
+}button.Rese {
+    background: #20B380;
+    color: #fff;
+}.countDisplay span {
+    font-weight: bold;
+    font-size: 1.5em;
+}.countDisplay span:last-child {
+    margin-left: 6px;
+}.borderLine {
+    width: 88%;
+    height: 0.1em;
+    background: #9e9e9e5c;
+    padding-left: 0pc;
+    padding-right: 0px;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+/* End the section */
+.SecTow {
+    border: 1px solid;
+    text-align: center;
+    background: #276189;
+    border-radius: 4px;
+}.twoInsideBody {
+    border: 1px solid;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+    background: #fff;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}.twoInsideHeading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+}.twoName span {
+    font-size: 16px;
+    color: red;
+}.quiz {
+    margin-top: 31px;
+}ul.quiz_quitoin {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+}ul.quiz_quitoin li {
+    border: 1px solid #00800059;
+    margin: 4px 22px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}ul.quiz_quitoin li:last-child {
+    margin-bottom: 24px;
+}.quietEnd {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 9px;
+}.quiz h5 {
+    margin-bottom: 17px;
+}button.twoNext {
+    background: #276189de;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}.quietEnd {
+    box-shadow: 5px 3px 16px 0px #9e9e9e69;
+    padding: 7px 0px;
+    margin-left: 17px;
+    margin-right: 21px;
+    border-radius: 7px;
+}.twoInsideHeading {
+    box-shadow: 5px 5px 15px;
+    padding-bottom: 11px;
+}span.scoreCount {
+    background: #343a40;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    padding-top: 3px;
+}span.towMin {
+    background: #343a40;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    padding-top: 3px;
+}span.towSec {
+    background: #343a40;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    padding-top: 3px;
+}.timeLeft {
+    background: #C6E2FF;
+    padding: 3px 2px;
+    text-align: center;
+    border-radius: 4px;
+}.totalScore {
+    background: #C6E2FF;
+    padding: 3px 1px;
+    text-align: center;
+    border-radius: 4px;
+}ul.quiz_quitoin li:hover {
+    background: #00800063;
+    color: #3f51b5;
+}ul.quiz_quitoin li {
+    transition: 0.4s;
+}li.right {
+    background: #008000ab;
+    color: #fff;
+}li.wrong {
+    background: #ff00004f;
+    color: #f44336ed;
+}li.right i {position: absolute;right: 14px;color: #ffeb3b;}
+ul.quiz_quitoin li {
+    position: relative;
+}li.wrong i {
+    position: relative;
+    right: -58px;
+}.SecTow {
+    position: relative;
+    transition: 1s;
+}button.Start {
+    position: absolute;
+    top: 44%;
+    z-index: 3;
+    left: 34%;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    padding: 4px 13px;
+    font-weight: bold;
+    color: #f44336d4;
+}.SecTow:before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background: #009688e0;
+    left: 0px;
+    z-index: 1;
+    border-radius: 4px;
+    display: var(--display,block);
+    transition: 1s;
+}ul.quiz_quitoin.dise {
+    pointer-events: none;
+}
+
+/*  End quiz app*/
+
+.numberTwo {
+    text-align: center;
+    border-radius:8px ;
+}.labelInput input {
+    margin-top: 24px;
+}button#addList {
+    margin-top: 35px;
+}.numberTwo h6 {
+    padding: 6px 0px;
+    margin-top: 19px;
+    background: #43AC6A;
+    color: #fff;
+}.numberTwo {
+    background: #80808026;
+    border-radius: 13px;
+}button#addList {
+    padding: 3px 81px;
+    border-radius: 10px;
+    background: #008CBA;
+    border: none;
+    color: #fff;
+    margin-bottom: 18px;
+    font-weight: bold;
+}input.Title::placeholder {
+    text-align: center;
+}.labelInput input {
+    border-radius: 4px;
+    border: 1px solid #80808080;
+    outline: none;
+}input.Author::placeholder {
+    text-align: center;
+}input.Year::placeholder {
+    text-align: center;
+}table.bookTable {
+    width: 100%;
+}table.bookTable tr:nth-child(even) {
+    background: #80808052;
+    border: 1px;
+}
