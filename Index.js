@@ -311,7 +311,7 @@ let convart = totalTime *60;
 let minet = document.querySelector('.towMin');
 let seces = document.querySelector('.towSec');
 
-//  set time time function
+//  set time function
 
 function quizTime () {
   const min = Math.floor(convart / 60);
@@ -340,6 +340,7 @@ function clearTime(){
   seces.innerHTML ='00';
 }
 // end the quiz app
+// ================================================= *** ================================================//
 
 // Start bookList app
 
@@ -369,17 +370,9 @@ function inputValu () {
     Years.innerHTML = Year.value;
     creatTr.appendChild (Years)
 tableBody.appendChild(creatTr)
-
-
 function tastingbook () {
-
-  
-
 }
 tastingbook()
-
-
-
 };
 
 function chackingtabil () {
@@ -407,7 +400,25 @@ button.addEventListener('click', () => {
 
 });
 
+//  end BookList App
 
+// ================================================= *** ================================================//
 
+// Start Currency Converter Application
+
+// Selection
+
+const from = document.querySelector('#from');
+const convartTo = document.querySelector('#convartTo');
+
+fetch('https://api.frankfurter.app/currencies')
+.then((data)=> data.json())
+.then ((data)=>{
+  
+})
+
+const option = document.createElement('option')
+option.innerHTML = data
+from.appendChild(option)
 
 

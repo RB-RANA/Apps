@@ -340,3 +340,52 @@ ul.quiz_quitoin li {
     background: #80808052;
     border: 1px;
 }
+/* End Book Table */
+
+/* Start currency converter */
+
+.SecTree {
+    background: #62656F;
+    color: #fff;
+    width: max-content;
+    border-radius: 5px;
+    padding: 0px 60px;
+}.currencyInfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}.currencyInput {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}.convartValue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-around;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 38px;
+}button#convartButton {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    border:none;
+    border-radius: 5px;
+}.currencyInfo h6 {
+    margin-top: 47px;
+}.SecTree input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+}.SecTree input::placeholder {text-align: center; font-size:20px}
+input#currency {
+    padding: 6px 0px;
+}input#from {
+    padding: 6px 0px;
+}input.Title.cleare {
+    padding: 6px 0px;
+}
